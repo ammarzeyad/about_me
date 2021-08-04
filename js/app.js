@@ -31,27 +31,38 @@ function noCorrect (question) {
         alert('This answer is not valid');
     }
 }
-
+function q1(){
 let play = prompt(' Are You Ready To Play ? ');
 console.log('Yes im Ready: ' + play);
 yesCorrect(play);
+}
+q1();
 
+function q2(){
 let ps = prompt(' Do you think i like problem solving ?');
 console.log('i like problem solving: ' + ps);
 yesCorrect(ps);
-
+}
+q2();
+function q3(){
 let favColor = prompt(' Is my favorite color Blue ? ');
 console.log('my favorite color: ' + favColor);
 yesCorrect(favColor);
-
+}
+q3();
+function q4(){
 let age = prompt(' Do you think im 21 years old ? ');
 console.log('my age is ' + age);
 yesCorrect(age);
+}
+q4();
 
-
+function q5(){
 let food = prompt(' Do you think i like Manasf ? ');
 console.log('my favorite food is ' + food);
 yesCorrect(food);
+}
+q5();
 
 
 function guessFavoriteNumber() {
