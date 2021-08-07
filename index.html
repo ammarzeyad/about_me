@@ -43,7 +43,7 @@
 <li>7.Bugatti Chiron</li>
 <li>8.Pagani Huayra</li>
 <li>9.Rimac Concept One</li>
-<li>10.Lamborghini Centenario</li>    
+<li>10.Lamborghini Centenario</li>  
 
         </ol>
 
@@ -59,12 +59,33 @@
 
         </ul>
 
+        <form action="action_page.php" method="post">
+            <div class="imgcontainer">
+              <img src="https://png.pngtree.com/png-vector/20191110/ourmid/pngtree-avatar-icon-profile-icon-member-login-vector-isolated-png-image_1978396.jpg" alt="Avatar" class="avatar">
+            </div>
+          
+            <div class="container">
+              <label for="uname"><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" name="uname" required>
+          
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+          
+              <button type="submit">Login</button>
+              <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+              </label>
+            </div>
+          
+            <div class="container" style="background-color:#f1f1f1">
+              <button type="button" class="cancelbtn">Cancel</button>
+              <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+          </form>
 
-    </main>
+        </main>
     
     <footer>
-
-
     </footer>
     <script src="js/app.js"></script>
 </body>
